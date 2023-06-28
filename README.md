@@ -11,12 +11,14 @@ This is a web application to predict salary of Developers around the world based
 5. Deploy
 
 # Key Notes:
-1. Cannot deploy to streamlit due to large size of dataset
+1. Could not deploy entire webpage to streamlit due to large size of dataset.
 2. As of June 2023, Stack Overflow does not provide an official API specifically for downloading the entire Developer Survey dataset.
-3. Thus, to access website, git clone git@github.com:eric-sun92/salary_predictions.git
-4. pip install -r requirements.txt
-5. Then download 2020 dataset at https://insights.stackoverflow.com/survey and drag file into salaryapp folder.
-6. Run streamlit run app.py in command line
+3. Thus, to access full website, git clone git@github.com:eric-sun92/salary_predictions.git
+4. uncomment explore_page.py
+5. uncomment everything in app.py and comment out show_predict_page() on line 7.
+6. pip install -r requirements.txt
+7. Then download 2020 dataset at https://insights.stackoverflow.com/survey and drag file into salaryapp folder.
+8. Run streamlit run app.py in command line
 
 # Demo Pictures:
 
