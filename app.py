@@ -4,7 +4,9 @@ from explore_page import show_explore_page
 
 response = st.sidebar.selectbox("Explore or Predict", ("Predict", "Explore"))
 
-if response == "Predict":
-    show_predict_page()
-else:
-    show_explore_page()
+show_predict_page()
+
+# if response == "Predict":
+#     show_predict_page()
+# else:
+#     show_explore_page()
