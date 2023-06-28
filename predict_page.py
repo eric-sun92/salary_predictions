@@ -16,7 +16,7 @@ le_education = data["le_education"]
 def show_predict_page():
     st.title("Software Developer Salary Prediction")
     
-    st.write("""### We need some info to predict the salary""")
+    st.write("""### Enter your info to predict your salary""")
     
     countries = (
         "United States",
